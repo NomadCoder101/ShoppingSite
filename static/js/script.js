@@ -58,3 +58,17 @@ $(document).ready(function() {
 }); 
 // jquery end
 
+
+//setTimeout(function(){
+ //   $('#message').fadeOut('slow')
+//}, 4000)
+
+
+jQuery(document).ready(function () {
+    //hide a div after 4 seconds
+setTimeout(function(){ jQuery("#message").fadeOut('slow'); }, 4000);
+});
+
+
+
+
